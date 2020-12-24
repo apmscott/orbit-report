@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { OrbitListComponent } from './orbit-list/orbit-list.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     OrbitListComponent
   ],
+    
   imports: [
     BrowserModule
   ],
